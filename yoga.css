@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.first-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+
+
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+
+
+}
+
+.nav ul li {
+    margin: 20px 30px;
+
+}
+
+.first-page {
+    display: flex;
+}
+
+.banner-content h1 {
+    letter-spacing: 2px;
+    font-size: 60px;
+
+}
+
+.banner-content {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+}
+
+
+.first-button button {
+    background-color: pink;
+    padding: 4px 15px;
+}
+
+.second-page {
+    background-image: url(second.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.second-banner-content {
+    padding: 50px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+}
+
+.second-banner-content h1 {
+    letter-spacing: 2px;
+    font-size: 60px;
+    padding: 10px 0px;
+
+
+}
+
+.second-banner-content p {
+    padding: 90px 1px
+}
+
+.second-button button {
+    background-color: pink;
+    padding: 4px 15px;
+}
+
+
+.third-page {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.first-program {
+    padding: 50px;
+}
+.third-page{
+    margin-top: 6%;
+}
+
+.first-program {
+    background-image: url(brush1.png);
+    padding: 5px;
+    width: 215px;
+}
+
+.second-program {
+    background-image: url(brush2.png);
+    padding: 5px;
+    width: 215px;
+
+}
+
+.third-program {
+    background-image: url(brush3.png);
+    padding: 5px;
+    width: 215px;
+
+}
+
+.fourth-class{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+}
+
+.fourth-heading h1{
+    margin: 12px 0px;
+}
+
+.fourth-heading p{
+    margin:40px 0px;
+}
+.fourth-button button{
+    background-color: pink;
+    padding: 4px 15px;
+}
+
+.fifth-page{
+    display: flex;
+    background-color: rgb(248, 239, 239);
+}
+
+.fifth-image{
+    width: 50%;
+}
+.fifth-image img{
+    max-width: 100%;
+    padding-left: 20px;
+}
+.fifth-heading h2{
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 12px 0px;
+}
+.fifth-heading p{
+margin: 35px 0px;
+}
+
+.fifth-button button{
+    background-color: pink;
+    padding: 4px 20px;
+    font-size: 15px;
+    
+}
+
+.first-heading h4{
+margin:10px 10px;
+}
+
+.first-heading p{
+    margin:6px 0px;
+}
+.second-heading h4{
+margin: 15px 44px;
+}
+.second-heading p{
+    margin:6px 0px;
+}
+
+
+.third-heading h4{
+    margin: 15px 44px;
+    }
+.third-heading p{
+        margin:6px 0px;
+}
+
+.heading h1{
+    padding: 10px;
+    text-align: center;
+}
+.heading p{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.six-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.six-image {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 270px;
+    height: 320px;
+  }
+
+.six-image img{
+    height: 200px;
+    width: 270px;
+}
+
+
+.six-image h1{
+    padding:10px;
+    text-align: center;
+}
+
+.six-image p{
+    padding:5px;
+    text-align: center;
+}
+
+.seven-page{
+    display: flex;
+    background-color: rgb(241, 214, 218)
+}
+
+.seven-heading h1{
+    padding: 30px 25px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    }
+
+
+.seven-para p{
+    padding: 10px 28px;
+    
+}
+.seven-para i{
+    padding: 40px 10px;
+    margin: 0px 23px;
+    
+    
+
+}
+
+.eight-heading h1{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    padding: 30px;
+}
+
+.eight-para p{
+    text-align: center;
+    padding: 0px;
+
+}
+
+.form{
+    margin:0px 10px;
+    text-align: center;
+    margin: 10px;
+
+}
+.form .text{
+    width:40%;
+    height: 40px;
+    background-color: gainsboro;
+    padding: 15px;
+    border: 1px solid #ccc;
+    
+}
+
+.form textarea{
+    background-color: gainsboro ;
+    border: 1px solid #ccc;
+}
+
+.eight-button button{
+    background-color: pink;
+    padding: 4px 20px;
+    font-size: 15px;
+    margin: 10px;
+
+}
+.nine-page{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color: #1d385389
+
+    
+    
+}
+.list a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+.nine-heading{
+    padding: 60px;
+
+}
+
+
+.list{
+    padding: 60px;
+}
+
+.list h4{
+    padding:5px 0px;
+}
+
+.nine-image{
+    padding: 45px;
+
+}
+.nine-image img{
+    padding: 6px;
+
+}
+.nine-image i{
+    padding: 10px;
+}
+  
+
